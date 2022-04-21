@@ -1,7 +1,7 @@
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 environment: prod
-url: "http://gregorygundersen.com"  # Sitemap base URL.
+url: "christospapachristou"  # Sitemap base URL.
 plugins:
   - jekyll-scholar
   - jekyll-sitemap
@@ -13,3 +13,10 @@ katex:
     # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
     throw_error: false      # throwOnError - set to false if you want rendering to output error as text rather than a build error
     error_color: "#cc0000"  # errorColor
+defaults:
+  -
+    scope:
+      path: "assets/img"
+      type: posts
+    values:
+        image: true
