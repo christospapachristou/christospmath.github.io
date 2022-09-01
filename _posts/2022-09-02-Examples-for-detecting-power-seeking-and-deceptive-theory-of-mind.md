@@ -2,7 +2,7 @@
 title: On detecting power-seeking behavior of Language Models
 subtitle: Walkthrough of 4 examples. 
 layout: default
-date: 2022-06-05
+date: 2022-09-01
 keywords: prompts, language models
 published: true
 permalink: /blog/examples-for-detecting power-seeking-and-deceptive-theory-of-mind
@@ -124,9 +124,6 @@ A: No
 * **Preference change**: we measure the model's tendency of changing the behavior of an agent in its environment (prompt) for some gain not explicitly described. Similar approach with LAMA/MD should work. This is related to the idea of influencing the environment in a way that changes the distribution of possible worlds to the model's gain (easier optimization, or bigger expected utility).
 
 Prompt engineering [4] could be of use when constructing this dataset. 
-
-**Closing thoughts**
-
 
 **References**
 
